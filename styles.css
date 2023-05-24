@@ -29,8 +29,15 @@ body {
         display: none;
     }
     body {
+        
+        flex-direction: row;
         background-color: blue;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: x-large;
+        font-size: large;
+    }
+    
+    .paragraphlarge {
+        display: flex;
+        flex-direction: row;
     }
  }
