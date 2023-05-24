@@ -1,0 +1,36 @@
+@media (max-width: 300px) {
+    #medium {
+        display: none;
+    }
+    #large {
+        display: none;
+    }
+body {
+    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-small;
+}
+}
+
+@media (min-width:300px) and (max-width: 768px) {
+    
+    #large, #small {
+        display: none;
+    }
+    body {
+        background-color: green;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+    }
+    
+}
+ @media (min-width:768px) {
+    #small, #medium {
+        display: none;
+    }
+    body {
+        background-color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: x-large;
+    }
+ }
